@@ -1,0 +1,49 @@
+/*
+Inline CSS, internal CSS, external CSS: Priority order 1. Inline CSS 2. internal CSS, 3. external CSS
+
+Inside external CSS, priority order is 1. Id 2. Class 3. tag 
+*/
+
+/***************** TAG SELECTORS *******************/
+
+h1 {
+  color: red;
+  font-size: 100px;
+}
+
+/*Pseudo classes: A CSS pseudo-class is a keyword added to a selector that specifies 
+a special state of the selected element(s). For example, the pseudo-class :hover can be 
+used to select a button when a user's pointer hovers over the button and this selected button 
+can then be styled.
+*/
+img:hover {
+  background-color: gold;
+}
+
+/***************** CLASS SELECTORS *******************/
+
+.bacon {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+}
+
+.broccoli {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+
+.vegetable {
+  border-radius: 100%;
+}
+
+.bacon-row {
+  color: red;
+}
+
+/***************** ID SELECTORS *******************/
+
+#heading {
+  color: blue;
+}
